@@ -8,7 +8,7 @@
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)  
 
 <p align="center">
-  <img src="img/Gif-Unity_move.gif" alt="Gif - ML AI moving" width="400">
+  <img src="img/Gif-Unity_move.gif" alt="Gif - ML AI moving">
 </p>
 
 ## 📝 Project Description
