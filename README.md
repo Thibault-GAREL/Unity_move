@@ -33,32 +33,52 @@ The blue cube learns to move towards the yellow sphere (reward) through trial an
 
 ---
 
-## Example Outputs
+## 📊 Example Outputs
 
+### Neural Network Architecture
+The AI agent uses a fully connected neural network trained with PPO:
 
-![Architecture of the Neural Network](img/Capture%20d’écran%202026-01-09%20231045.png)
-![Presentation of the training in perspective](img/Gif-Unity_move-X9-training-perspective.gif)
-![Presentation of the training from the top](img/Gif-Unity_move-X9-training.gif)
-![Presentaion of the final NN from the top](img/Gif-Unity_move-X9.gif)
-![Presentation of the final NN in perspective](img/Gif-Unity_move-perspective.gif)
+<p align="center">
+  <img src="img/Capture%20d'écran%202026-01-09%20231045.png" alt="Neural Network Architecture" width="600">
+</p>
+
+### Training Process
+Watch the agent learn across multiple parallel environments. The training demonstrates how multiple blue cubes simultaneously learn to reach their yellow targets:
+
+**Perspective View:**
+<p align="center">
+  <img src="img/Gif-Unity_move-X9-training-perspective.gif" alt="Training - Perspective View" width="700">
+</p>
+
+**Top-Down View:**
+<p align="center">
+  <img src="img/Gif-Unity_move-X9-training.gif" alt="Training - Top View" width="700">
+</p>
+
+### Trained Agent Performance
+After training, the agent efficiently navigates to its target:
+
+**Top-Down View:**
+<p align="center">
+  <img src="img/Gif-Unity_move-X9.gif" alt="Trained Agent - Top View" width="700">
+</p>
+
+**Perspective View:**
+<p align="center">
+  <img src="img/Gif-Unity_move-perspective.gif" alt="Trained Agent - Perspective View" width="700">
+</p>
 
 ---
 
 ## 🧠 Training Visualization
 
-The training process shows multiple parallel environments:
+The training process demonstrates reinforcement learning in action:
 - **Blue cubes** = AI agents learning to navigate  
 - **Yellow spheres** = Target rewards to reach  
 - **Green platforms** = Successful episodes (goal reached in time)  
 - **Red platforms** = Failed episodes (timeout before reaching goal)
 
-<!--
-Training in action:
-![Training Progress 1](img/training.png)
-
-Advanced training stage:
-![Training Progress 2](img/skilled.png)
--->
+As training progresses, you'll observe more green platforms appearing, indicating improved performance and successful goal completions.
 
 ---
 
