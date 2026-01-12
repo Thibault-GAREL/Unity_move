@@ -35,13 +35,12 @@ The blue cube learns to move towards the yellow sphere (reward) through trial an
 
 ## Example Outputs
 
-[RL in action in detail](img/Gif-Unity_move.gif)
 
-[Architecture of the Neural Network](img/Capture%20d’écran%202026-01-09%20231045.png)
-[Presentation of the training in perspective](img/Gif-Unity_move-X9-training-perspective.gif)
-[Presentation of the training from the top](img/Gif-Unity_move-X9-training.gif)
-[Presentaion of the final NN from the top](img/Gif-Unity_move-X9.gif)
-[Presentation of the final NN in perspective](img/Gif-Unity_move-perspective.gif)
+![Architecture of the Neural Network](img/Capture%20d’écran%202026-01-09%20231045.png)
+![Presentation of the training in perspective](img/Gif-Unity_move-X9-training-perspective.gif)
+![Presentation of the training from the top](img/Gif-Unity_move-X9-training.gif)
+![Presentaion of the final NN from the top](img/Gif-Unity_move-X9.gif)
+![Presentation of the final NN in perspective](img/Gif-Unity_move-perspective.gif)
 
 ---
 
