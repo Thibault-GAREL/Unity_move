@@ -39,7 +39,7 @@ The blue cube learns to move towards the yellow sphere (reward) through trial an
 The AI agent uses a fully connected neural network trained with PPO:
 
 <p align="center">
-  <img src="img/Capture%20d'écran%202026-01-09%20231045.png" alt="Neural Network Architecture" width="600">
+  <img src="img/Capture d’écran 2026-01-10 143229.png" alt="Neural Network Architecture" width="600">
 </p>
 
 ### Training Process
